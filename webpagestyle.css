@@ -29,14 +29,13 @@ p {
 }
 h2 {
     font-size: 22px;
+    color: #FFFF33;
+    text-align: center;
 }
 h3 {
     font-size: 22px;
 }
-<<<<<<< HEAD
-=======
 
->>>>>>> refs/remotes/origin/master
 .collapsible {
   background-color: yellow;
   color: #444;
