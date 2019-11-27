@@ -14,6 +14,7 @@ p {
  text-align: center;
  border: 3px groove #FFFF33;
 }
+<<<<<<< HEAD
 {
     box-sizing: border-box;
 }
@@ -33,3 +34,25 @@ h2 {
 h3 {
     font-size: 22px;
 }
+=======
+.collapsible {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
+.active, .collapsible:hover {
+  background-color: #ccc;
+}
+.content {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: #f1f1f1;
+}
+>>>>>>> aa6943de3a7aa79028f690cee6c8f00604f564eb
