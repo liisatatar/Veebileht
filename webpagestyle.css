@@ -14,7 +14,6 @@ p {
  text-align: center;
  border: 3px groove #FFFF33;
 }
-<<<<<<< HEAD
 {
     box-sizing: border-box;
 }
@@ -34,7 +33,10 @@ h2 {
 h3 {
     font-size: 22px;
 }
+<<<<<<< HEAD
+=======
 
+>>>>>>> refs/remotes/origin/master
 .collapsible {
   background-color: yellow;
   color: #444;
