@@ -19,8 +19,8 @@ p {
 }
  .column {
     float: left;
-    width: 33.33%;
-    padding:10px;
+    width: 48%;
+    padding:1%;
 }
 .row:after {
     content:"";
