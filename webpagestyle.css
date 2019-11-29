@@ -4,32 +4,32 @@ body {
  color: #121212;
 }
 h1 {
- color: #FFFF33;
+ color: white;
  text-align: center;
  font: italic 200% fantasy;
 }
 p {
- background-color: #FFFF33;
- color: #333300;
+ background-color: #272727;
+ color: white;
  text-align: center;
- border: 3px groove #FFFF33;
+ border: 3px groove #272727;
 }
 {
     box-sizing: border-box;
 }
-.column {
-  float: left;
-  width: 48%;
-  padding:1%;
+ .column {
+    float: left;
+    width: 48%;
+    padding:1%;
 }
 .row:after {
-  content:"";
-  display: table;
-  clear: both;
+    content:"";
+    display: table;
+    clear: both;
 }
 h2 {
     font-size: 22px;
-    color: #FFFF33;
+    color: white;
     text-align: center;
 }
 h3 {
@@ -37,23 +37,23 @@ h3 {
 }
 
 .collapsible {
-  background-color: yellow;
+  background-color: #272727;
   color: #444;
   cursor: pointer;
   padding: 18px;
   width: 100%;
   border: none;
-  text-align: middle;
+  text-align: center;
   outline: none;
   font-size: 15px;
 }
 .active, .collapsible:hover {
-  background-color: lightgoldenrodyellow;
+  background-color: #272727;
 }
 .content {
   padding: 0 18px;
   overflow: hidden;
-  background-color: lightgoldenrodyellow;
+  background-color: #272727;
   max-height: 0;
   transition: max-height 0.3s ease-out; 
 }
@@ -63,23 +63,9 @@ h3 {
   width: 50%;
 }
 
+/* Make the image responsive */
 .container img {
   width: 100%;
   height: auto;
 }
-.imdb-logo {
-  font: 2em/1 Impact, HelveticaNeue-CondensedBold, sans-serif; 
-  font-size: 15px;
-  color: #000;
-  text-shadow: 0 0 .15em #fff;
-  text-decoration: none;
-  display: inline-block;
-  vertical-align: bottom;
-  padding: .25em .35em;
-  border-radius: .15em;
-  background: radial-gradient(#ffffb8, #ce981d);
-    
-  &:hover {
-    background: radial-gradient(lighten(#ffffb8, 10%), lighten(#ce981d, 10%));
-  }
-}
+
