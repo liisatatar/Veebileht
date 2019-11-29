@@ -12,7 +12,6 @@ p {
  background-color: #272727;
  color: white;
  text-align: center;
- border: 3px groove #272727;
 }
 {
     box-sizing: border-box;
@@ -38,7 +37,7 @@ h3 {
 
 .collapsible {
   background-color: #272727;
-  color: #444;
+  color: white;
   cursor: pointer;
   padding: 18px;
   width: 100%;
