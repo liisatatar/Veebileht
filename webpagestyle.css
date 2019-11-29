@@ -57,8 +57,6 @@ h3 {
   max-height: 0;
   transition: max-height 0.3s ease-out; 
 }
-.tab { display: none; }
-.tab.is-active { display: block; }
 
 .container {
   position: relative;
