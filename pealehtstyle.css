@@ -3,24 +3,23 @@ body {
  color: #121212;
 }
 h1 {
- color: #FFFF33;
+ color: white;
  text-align: center;
  font: italic 200% fantasy;
 }
 h2 {
- color: #FFFF33;
+ color: white;
  text-align: center;
  font: italic 200% fantasy;
 }
 p {
- background-color: #FFFF33;
- color: #333300;
+ background-color: #272727;
+ color: white;
  text-align: center;
- border: 3px groove #FFFF33;
 }
 .center {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 50%;
+  width: 25%;
 }
