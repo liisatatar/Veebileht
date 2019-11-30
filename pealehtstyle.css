@@ -16,6 +16,8 @@ p {
  background-color: #272727;
  color: white;
  text-align: center;
+ width: 50%;
+align-content: center;
 }
 .center {
   display: block;
