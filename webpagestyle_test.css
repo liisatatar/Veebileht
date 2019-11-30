@@ -20,7 +20,7 @@ p {
     float: left;
     width: 48%;
     padding:1%;
-    display:flex;
+    
     align-content: center;
     justify-content: center;
 }
