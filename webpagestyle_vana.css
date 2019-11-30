@@ -1,4 +1,4 @@
-/* webpagestyle_test.css */
+/* webpagestyle.css */
 body {
  background-color: #121212;
  color: #121212;
@@ -38,6 +38,38 @@ h3 {
     font-size: 22px;
 }
 
+.collapsible {
+  background-color: #272727;
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: center;
+  outline: none;
+  font-size: 15px;
+}
+.active, .collapsible:hover {
+  background-color: #272727;
+}
+.content {
+  padding: 0 18px;
+  overflow: hidden;
+  background-color: #272727;
+  max-height: 0;
+  transition: max-height 0.3s ease-out; 
+}
+
+.container {
+  position: relative;
+  width: 50%;
+}
+
+/* Make the image responsive */
+.container img {
+  width: 100%;
+  height: auto;
+}
 .imdb-logo {
   font: 2em/1 Impact, HelveticaNeue-CondensedBold, sans-serif; 
   font-size: 15px;
@@ -55,46 +87,6 @@ h3 {
     background: radial-gradient(lighten(#ffffb8, 10%), lighten(#ce981d, 10%));
   }
 }
-.movie-image{
-    width: 400px;
-    height:560px;
-}
-.image-info-container {
-   position: relative; 
-   max-width:400px;   
-}
-.image-info {
-    position: absolute; 
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    visibility: hidden;
-    opacity: 0;
-    transition: all .5s ease; 
-    background-color: rgba(255,255,255,.75);
-    padding: 20px;
-    box-sizing: border-box;
-}
-.image-info.is-active {
-    visibility: visible;
-    opacity: 1;
-    
-}
-.tab-button{
-  background-color: #272727;
-  color: white;
-  cursor: pointer;
-  padding: 18px;
-  width: 400px;
-  border: none;
-  text-align: center;
-  outline: none;
-  font-size: 15px;
-}
-.active, .tab-button:hover {
-  background-color: black;
-}
 ul {
   list-style-type: none;
   margin: 0;
@@ -102,11 +94,9 @@ ul {
   overflow: hidden;
   background-color: #121212;
 }
-
 li {
   float: left;
 }
-
 li a {
   display: block;
   color: white;
@@ -114,7 +104,6 @@ li a {
   padding: 14px 16px;
   text-decoration: none;
 }
-
 li a:hover {
   background-color: #272727;
 }
