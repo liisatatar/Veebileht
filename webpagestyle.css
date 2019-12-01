@@ -1,7 +1,6 @@
 
 body {
  background-color: #121212;
- color: #121212;
 }
 h1 {
  color: white;
@@ -77,10 +76,6 @@ h3 {
   padding: .25em .35em;
   border-radius: .15em;
   background: radial-gradient(#ffffb8, #ce981d);
-    
-  &:hover {
-    background: radial-gradient(lighten(#ffffb8, 10%), lighten(#ce981d, 10%));
-  }
 }
 .movie-image{
     width: 400px;
