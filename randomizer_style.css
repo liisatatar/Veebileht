@@ -13,7 +13,7 @@ h2 {
  font: italic 150% fantasy;
 }
 p {
- background-color: #272727;
+ background-color: #121212;
  color: white;
  text-align: center;
 }
@@ -46,10 +46,7 @@ li a {
   padding: 14px 16px;
   text-decoration: none;
 }
-<<<<<<< HEAD
 
-=======
->>>>>>> f17783b646890ed1327902f579f03e5738505644
 li a:hover {
   background-color: #272727;
 }

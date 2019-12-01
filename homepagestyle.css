@@ -2,14 +2,14 @@ body {
  background-image: url("https://wallpaperaccess.com/full/752715.jpg");
  color: white;
 }
-p {
+p2 {
  background-color: #272727;
  color: white;
  text-align: center;
 
 }
 
-p a {
+.button {
   display: block;
   color: white;
   background-color:#272727; 
@@ -20,7 +20,7 @@ p a {
   border: 2px solid #272727;
 }
 
-p a:hover {
+.button:hover {
   background-color: #272727;
 }
 .row:after {
@@ -29,14 +29,25 @@ p a:hover {
     clear: both;
 }
 .column {
-    float: left;
+    background-color:#272727;
     width: 48%;
     padding:1%;
-    display:flex;
-    align-content: center;
-    justify-content: center;
 }
-.content {
-  position: relative;
-    
+
+.container{
+    background-color:#272727;
+    width:900px;
+    height:500px;
+    opacity:75%;
+    display:grid;
+    grid-template-columns: 450px 450px;
+    grid-template-rows: 100px 100px;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:10%;
+}
+.grid-item {
+  padding: 20px;
+  text-align: center;
+  height:20px;
 }
